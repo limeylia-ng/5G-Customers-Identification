@@ -1,0 +1,18 @@
+# Ignore dataset files
+data/*.csv
+data/*.xlsx
+
+# Ignore model files and outputs
+outputs/models/*
+outputs/plots/*
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
